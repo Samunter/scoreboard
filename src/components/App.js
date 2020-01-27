@@ -4,6 +4,8 @@ import Header from './Header';
 import PlayerList from './PlayerList';
 import AddPlayerForm from './AddPlayerForm';
 
+//Some notes
+
 class App extends Component {
   state = {
     players: [
