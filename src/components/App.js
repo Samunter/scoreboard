@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import { Provider } from './Context';
-import Header from './Header';
-import PlayerList from './PlayerList';
-import AddPlayerForm from './AddPlayerForm';
+import React, { Component } from "react";
+import { Provider } from "./Context";
+import Header from "./Header";
+import PlayerList from "./PlayerList";
+import AddPlayerForm from "./AddPlayerForm";
 
 //Some notes
 
@@ -10,22 +10,22 @@ class App extends Component {
   state = {
     players: [
       {
-        name: 'Guil',
+        name: "Guil",
         score: 0,
         id: 1
       },
       {
-        name: 'Treasure',
+        name: "Treasure",
         score: 0,
         id: 2
       },
       {
-        name: 'Ashley',
+        name: "Ashley",
         score: 0,
         id: 3
       },
       {
-        name: 'James',
+        name: "James",
         score: 0,
         id: 4
       }
